@@ -18,7 +18,7 @@ function App() {
   const [filingHeadlines, setFilingHeadlines] = useState([]);
   const [buyDisabled, setBuyDisabled] = useState(false);
   const [price] = useState(0.5); // Placeholder price for now
-  const [signal] = useState({ ticker: "OST" }); // Placeholder ticker
+  const [signal] = useState({ ticker: "APLD" }); // Placeholder ticker
 
   const toCAD = (usd) => (usd * USD_TO_CAD).toFixed(2);
 
