@@ -16,7 +16,7 @@ function App() {
   const [altSimResults, setAltSimResults] = useState([]);
   const [redFlags, setRedFlags] = useState({ earningsSoon: false, dilutionRisk: false, splitUpcoming: false });
   const [filingHeadlines, setFilingHeadlines] = useState([]);
-  const [buyDisabled, setBuyDisabled] = useState(false);
+  const [buyDisabled, setBuyDisabled] = useState(true);
   const [price] = useState(0.5); // Placeholder price for now
   const [signal] = useState({ ticker: "APLD" }); // Placeholder ticker
 
